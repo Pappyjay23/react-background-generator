@@ -1,0 +1,48 @@
+.navbar{
+    background: #24013f;
+    padding: 1rem;
+}
+
+.nav-items{
+    background-color: #24013f;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-items.open {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.nav-icon, .nav-icon-close {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.nav-items li:first-child {
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.nav-items li {
+    list-style: none;
+    padding: 1rem 0;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item-icon {
+    margin-right: .5rem;
+}
